@@ -5,8 +5,6 @@
 
 // Given an input string, reverse the string word by word.
 
- 
-
 // Example 1:
 
 // Input: "the sky is blue"
@@ -21,14 +19,12 @@
 // Input: "a good   example"
 // Output: "example good a"
 // Explanation: You need to reduce multiple spaces between two words to a single space in the reversed string.
- 
 
 // Note:
 
 // A word is defined as a sequence of non-space characters.
 // Input string may contain leading or trailing spaces. However, your reversed string should not contain leading or trailing spaces.
 // You need to reduce multiple spaces between two words to a single space in the reversed string.
- 
 
 // Follow up:
 
@@ -37,22 +33,26 @@
 // Solution:
 class Solution {
     public String reverseWords(String s) {
-        
-        String ans="";
-        int i=0, n=s.length();
-        
-        while(i<n) {
-            while(i<n && s.charAt(i) == ' ') i++;
-            if(i>=n) break;
-            int j=i+1;
-            while(j<n && s.charAt(j) != ' ') j++;
-            if(ans.length()==0) ans=s.substring(i, j);
-            else ans=s.substring(i, j) + " " + ans;
-            i=j+1;
+
+        String ans = "";
+        int i = 0, n = s.length();
+
+        while (i < n) {
+            while (i < n && s.charAt(i) == ' ')
+                i++;
+            if (i >= n)
+                break;
+            int j = i + 1;
+            while (j < n && s.charAt(j) != ' ')
+                j++;
+            if (ans.length() == 0)
+                ans = s.substring(i, j);
+            else
+                ans = s.substring(i, j) + " " + ans;
+            i = j + 1;
         }
         return ans;
 
     }
 }
-//Complexity: O(n)
-
+// Complexity: O(n)
