@@ -16,6 +16,9 @@ This repository contains solutions to the monthly challenges on the Leetcode pla
    - **February:** [February LeetCoding Challenge](https://leetcode.com/explore/challenge/card/february-leetcoding-challenge-2021/)
    - **March:** [March LeetCoding Challenge](https://leetcode.com/explore/challenge/card/march-leetcoding-challenge-2021/)
    - **April:** [April LeetCoding Challenge](https://leetcode.com/explore/challenge/card/april-leetcoding-challenge-2021/)
+   - **May:** [May LeetCoding Challenge](https://leetcode.com/explore/challenge/card/may-leetcoding-challenge-2021/)
+   - **June:** [June LeetCoding Challenge](https://leetcode.com/explore/challenge/card/june-leetcoding-challenge-2021/)
+   - **July:** [July LeetCoding Challenge](https://leetcode.com/explore/challenge/card/july-leetcoding-challenge-2021/)
 
 <p align="center">
    <img src="https://img.shields.io/badge/language-JAVA-badge?style=for-the-badge">
